@@ -1,19 +1,10 @@
-
 import urllib.request,json
 from .models import Source,Articles
-
-
-
 # Getting api key
-
 api_key = None
-
 # Getting the movie base url
-
 base_url = None
-
 #Getting the articles base url
-
 articles_url = None
 
 def configure_request(app):
