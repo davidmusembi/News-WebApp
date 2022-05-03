@@ -1,7 +1,7 @@
 # News-WebApp
 
 ### Author
- **[David Musembi.](https://github.com/davidmusembi)**
+ **[David Musembi.]()*https://github.com/davidmusembi*
 
 ## Description
 
