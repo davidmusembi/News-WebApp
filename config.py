@@ -8,9 +8,7 @@ class Config:
     NEWS_API_KEY = os.environ.get('NEWS_API_KEY')
     SECRET_KEY = os.environ.get('SECRET_KEY')
     
-    @staticmethod
-    def init_app(app):
-            pass
+            
 
 class ProdConfig(Config):
     '''articles_result = Articles(
@@ -33,7 +31,7 @@ class DevConfig(Config):
         Config: The parent configuration class with General configuration settings
     '''
 
-    DEBUG = True
+DEBUG = True
 
 config_options = {
 'development':DevConfig,
