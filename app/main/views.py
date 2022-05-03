@@ -15,7 +15,6 @@ def index():
     tech_sources = get_sources('technology')
     business_sources = get_sources('business')
     sports_sources = get_sources('sports')
-    
     print(tech_sources)
     title = 'News Point'
     

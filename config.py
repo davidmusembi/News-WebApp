@@ -5,8 +5,8 @@ class Config:
     '''
     NEWS_SOURCES_BASE_URL = 'https://newsapi.org/v2/sources?language=en&category={}&apiKey={}'
     ARTICLES_BASE_URL = 'https://newsapi.org/v2/everything?sources={}&apiKey={}'
-    NEWS_API_KEY ='3b47014ee72a44118cdc3520fe0d0d84'
-    SECRET_KEY ='PIEDPIPER4186'
+    NEWS_API_KEY = os.environ.get('NEWS_API_KEY')
+    SECRET_KEY = os.environ.get('SECRET_KEY')
     
     @staticmethod
     def init_app(app):
